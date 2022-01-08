@@ -1,0 +1,82 @@
+*
+{
+    margin:0px;
+    padding: 0px;
+   }
+body
+{
+    height: 100vh;
+    background:linear-gradient(rgb(61, 154, 216),rgb(228, 24, 150));
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.log-main
+{
+    height: 350px;
+    width: 250px;
+    background-color:whitesmoke;
+    position: absolute;
+    top: 20%;
+    left: 38%;
+    text-align: center;
+    border: 5px solid aqua;
+    box-shadow: 5px 5px 5px 10px;
+    color: rgb(15, 14, 15);
+    
+}
+h2
+{
+    position: relative;
+    top: 20px;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+label
+{
+    position: relative;
+    top:25px;
+    font-size: 25px;
+    
+}
+input
+{
+    position: relative;
+    top:25px;
+    box-shadow: 5px 5px 5px 2px;
+    padding: 5px;
+    border-radius: 15px;
+     border: none;
+}
+h3{
+    position:relative;
+    top: 80px;
+    color: rgb(236, 25, 25);
+    cursor: pointer;
+    font-size:20px;
+}
+button
+{
+    height: 25px;
+    width: 100px;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 15px;
+    background: linear-gradient(rgb(0, 204, 255),rgb(230, 17, 148));
+    
+    
+}
+h4{
+    position: relative;
+    top: 35px;
+    color: aqua;
+    font-size:25px;
+}
+@media (max-width:720px) {
+    .log-main{
+        position: absolute;
+        top: 20%;
+        left: 30%;
+
+    }
+    
+}
